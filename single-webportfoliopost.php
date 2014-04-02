@@ -1,12 +1,11 @@
+
 <?php
-/**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="content">
- *
- * @package floodwebportfolio
- */
-?><!DOCTYPE html>
+/*
+Template Name Posts: Portfolio Post
+*/
+?>
+
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -32,7 +31,7 @@
         <div class="site-branding">
 
             <div class="header-image">
-                <img src="img/header-image.png">
+                <img src="img/header-logo.png">
             </div>
 
             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
